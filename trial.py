@@ -66,7 +66,7 @@ with col3:
 
     """)
    
-    image = Image.open('Motor1.jpg')
+    image = Image.open('Motor1.JPG')
     #image = image.resize((2, 2), resample=Image.BILINEAR)
     #st.image(image,use_column_width='auto',width=0.5)
     st.image(image,width=1,use_column_width='always')
