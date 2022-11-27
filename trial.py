@@ -42,7 +42,7 @@ with col1:
 
     motor_speed	= st.number_input('Motor speed [RPM]:',min_value=-275, max_value=6000)
 
-    i_d	= st.number_input('d_component of current[V]:',min_value=-270, max_value=0)
+    i_d	= st.number_input('d_component of current[Amp]:',min_value=-270, max_value=0)
 
    
 
